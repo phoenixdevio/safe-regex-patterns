@@ -4,8 +4,8 @@ var safe = require('safe-regex');
 // console.log(safe(regex));
 const showPatterns = (arr) => {
   arr.forEach(pattern => {
-    // console.log("\r\n*", pattern[0], ":\r\n")
-    // console.log(" `" + prepareRegexObject(pattern[1]) + "`", "\r\n")
+    // console.log("\r\n*", pattern[0], ":")
+    // console.log("  `" + prepareRegexObject(pattern[1]) + "`")
 
     console.log("\r\n", pattern[0], "=>", "safe:", pattern[2])
     console.log(prepareRegexObject(pattern[1]), "\r\n")
