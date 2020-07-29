@@ -60,9 +60,9 @@
 * vpnPassword :
  `/^[A-Za-z0-9@#$%^&!+=]{8,16}$/`
 
-##Un-Safe Patterns
+## Un-Safe Patterns
 
-###Use Atomic group to solve this(or use `re2` or `validator.js`)
+**Note:** Use Atomic group to solve this(or use `re2` or `validator.js`)
 
 * link :
  `/^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/`
