@@ -66,3 +66,21 @@
 
 * link :
  `/^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/`
+
+## StackOverflow related Question
+
+https://stackoverflow.com/questions/63127145/safe-regex-patterns-from-redos-attack
+
+## Resources
+
+https://regex101.com/
+
+https://jex.im/regulex
+
+https://javascript.info/regexp-catastrophic-backtracking#preventing-backtracking
+
+https://www.smashingmagazine.com/2019/02/regexp-features-regular-expressions/
+
+https://medium.com/swlh/exploiting-redos-d610e8ba531
+
+
