@@ -1,13 +1,13 @@
-##Using safe-regex to check your patterns
+## Using safe-regex to check your patterns
 
-1.`npm i`
+1. `npm i`
 
-2.you should add your custom patterns in safe.js file, and in `patterns` object.
+2. you should add your custom patterns in safe.js file, and in `patterns` object.
 
-3.`node safe.js`
+3. `node safe.js`
 
 
-##Safe Patterns
+## Safe Patterns
 
 * en_label :
  `/^[a-zA-Z0-9-_ ]{0,250}$/`
